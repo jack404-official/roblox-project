@@ -3406,11 +3406,7 @@ task.wait(0.4)
 ai(true)
 end
 else
-ag.WindUI:Notify{
-Title="Key System",
-Content="Invalid key.",
-Icon="triangle-alert",
-}
+
 end
 elseif not ag.KeySystem.API then
 local b=type(ag.KeySystem.Key)=="table"and table.find(ag.KeySystem.Key,aA)
