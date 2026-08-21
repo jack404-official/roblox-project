@@ -3407,8 +3407,8 @@ ai(true)
 end
 else
 ag.WindUI:Notify{
-Title="Key System. Error",
-Content="Invalid key.",
+Title="Key System.",
+Content="The license key you entered is incorrect.",
 Icon="triangle-alert",
 }
 end
